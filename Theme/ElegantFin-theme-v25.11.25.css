@@ -12,51 +12,51 @@
 
     /* Base theme colors */
     color-scheme: dark;
-    --darkerGradientPoint: #111827;
-    --darkerGradientPointAlpha: rgba(17, 24, 39, 0.85);
-    --lighterGradientPoint: #1d2635;
-    --lighterGradientPointAlpha: rgba(29, 38, 53, 0.85);
-    --gradientPointAlpha: rgba(29, 38, 53, 0.3);
-    --headerColor: rgba(30, 40, 54, 0.8);
-    --drawerColor: rgba(30, 40, 54, 0.9);
+    --darkerGradientPoint: #121212;
+    --darkerGradientPointAlpha: rgba(18, 18, 18, 0.85);
+    --lighterGradientPoint: #1e1e1e;
+    --lighterGradientPointAlpha: rgba(30, 30, 30, 0.85);
+    --gradientPointAlpha: rgba(30, 30, 30, 0.3);
+    --headerColor: rgba(24, 24, 24, 0.8);
+    --drawerColor: rgba(24, 24, 24, 0.9);
 
-    --borderColor: hsl(214, 13%, 32%);
-    --darkerBorderColor: hsl(214, 13%, 22%);
+    --borderColor: hsl(0, 0%, 32%);
+    --darkerBorderColor: hsl(0, 0%, 22%);
     --lighterBorderColor: hsla(0, 0%, 100%, 0.2);
 
-    --selectorBackgroundColor: rgb(55, 65, 81);
-    --selectorBackgroundColorAlpha: rgba(55, 65, 81, 0.5);
+    --selectorBackgroundColor: rgb(55, 55, 55);
+    --selectorBackgroundColorAlpha: rgba(55, 55, 55, 0.5);
 
-    --activeColorAlpha: rgba(119, 91, 244, 0.9);
-    --activeColor: rgb(119, 91, 244);
+    --activeColorAlpha: rgba(180, 180, 180, 0.9);
+    --activeColor: rgb(180, 180, 180);
     --osdSeekBarPlayedColor: var(--textColor);
     --osdSeekBarBufferedColorAlpha: rgba(128, 128, 128, 0.5);
     --osdSeekBarThumbColor: white;
-    --tableBodyColor: rgb(31 41 55 / 1);
-    --uiAccentColor: rgb(117 111 226);
-    --btnMiniPlayColor: rgb(41 154 93);
-    --btnMiniPlayBorderColor: rgb(50, 167, 105);
+    --tableBodyColor: rgb(31 31 31 / 1);
+    --uiAccentColor: rgb(180 180 180);
+    --btnMiniPlayColor: rgb(160 160 160);
+    --btnMiniPlayBorderColor: rgb(180, 180, 180);
 
     /* Base component colors */
-    --btnDeleteColor: rgb(169, 29, 29);
-    --btnDeleteBorderColor: rgb(217, 84, 84);
-    --btnSubmitColor: rgb(61, 54, 178);
-    --btnSubmitBorderColor: rgb(117 111 226);
-    --checkboxCheckedBgColor: rgb(79, 70, 229);
-    --highlightOutlineColor: rgb(37, 99, 235);
+    --btnDeleteColor: rgb(130, 130, 130);
+    --btnDeleteBorderColor: rgb(170, 170, 170);
+    --btnSubmitColor: rgb(140, 140, 140);
+    --btnSubmitBorderColor: rgb(180 180 180);
+    --checkboxCheckedBgColor: rgb(160, 160, 160);
+    --highlightOutlineColor: rgb(180, 180, 180);
 
     --defaultBorder: var(--borderWidth) solid var(--borderColor);
     --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
 
     /* dark theme based text colors */
-    --textColor: rgb(209, 213, 219);
-    --dimTextColor: rgb(156, 163, 175);
+    --textColor: rgb(210, 210, 210);
+    --dimTextColor: rgb(160, 160, 160);
 
     /* textures */
     --backgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint) 35%, var(--lighterGradientPoint));
     --cardBackgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint), 25%, var(--lighterGradientPoint));
-    --headerColorGradient: linear-gradient(180deg, rgba(30, 40, 54, 0.95) 30%, 55%, transparent 90%);
-    --headerColorGradientAlt: linear-gradient(180deg, rgba(30, 40, 54, 1), 70%, transparent);
+    --headerColorGradient: linear-gradient(180deg, rgba(24, 24, 24, 0.95) 30%, 55%, transparent 90%);
+    --headerColorGradientAlt: linear-gradient(180deg, rgba(24, 24, 24, 1), 70%, transparent);
     --headerBlurMask: linear-gradient(180deg, white 50%, 85%, transparent);
 
     --cardFooterGradient: linear-gradient(0deg, rgb(0 0 0 / 90%), 40%, transparent);
@@ -299,7 +299,7 @@ body {
 .countIndicator,
 .fullSyncIndicator,
 .mediaSourceIndicator {
-    background: rgb(31, 80, 189);
+    background: rgb(80, 80, 80);
     border: var(--defaultLighterBorder);
 }
 
@@ -1139,7 +1139,7 @@ body {
 }
 
 .starIcon {
-    background: linear-gradient(to right, #90cea1, #01b4e4);
+    background: linear-gradient(to right, #b0b0b0, #808080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: -0.125em;
@@ -1536,11 +1536,11 @@ html,
 
 .backgroundContainer.withBackdrop {
     opacity: 0.9;
-    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(17, 24, 39, 0.25));
+    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(18, 18, 18, 0.25));
 }
 
 .layout-tv .backgroundContainer.withBackdrop {
-    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(17, 24, 39, 0.95));
+    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(18, 18, 18, 0.95));
 }
 
 .layout-mobile .withSectionTabs .backgroundContainer.withBackdrop {
@@ -1811,7 +1811,7 @@ progress + span {
 }
 
 .playstatebutton-icon-played {
-    color: rgb(34, 197, 94);
+    color: rgb(180, 180, 180);
 }
 
 .videoOsdBottom.videoOsdBottom-maincontrols .btnPause {
@@ -1859,37 +1859,37 @@ progress + span {
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="themoviedb.org"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="themoviedb.org"]:active {
-    background-color: rgb(26, 183, 216) !important;
+    background-color: rgb(140, 140, 140) !important;
     color: black !important;
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="imdb.com"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="imdb.com"]:active {
-    background-color: rgb(226, 182, 22) !important;
+    background-color: rgb(160, 160, 160) !important;
     color: black !important;
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="thetvdb.com"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="thetvdb.com"]:active {
-    background-color: rgb(108, 213, 145) !important;
+    background-color: rgb(150, 150, 150) !important;
     color: black !important;
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="trakt.tv"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="trakt.tv"]:active {
-    background-color: rgb(171, 58, 173) !important;
+    background-color: rgb(130, 130, 130) !important;
     color: var(--textColor) !important;
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="theaudiodb.com"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="theaudiodb.com"]:active {
-    background-color: rgb(99, 153, 204) !important;
-    color: rgb(15, 22, 28) !important;
+    background-color: rgb(140, 140, 140) !important;
+    color: rgb(15, 15, 15) !important;
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="musicbrainz.org"]:hover,
 .itemExternalLinks.focuscontainer-x > a[href*="musicbrainz.org"]:active {
-    background-color: rgb(186, 71, 143) !important;
+    background-color: rgb(120, 120, 120) !important;
     color: var(--textColor) !important;
 }
 
@@ -2209,7 +2209,7 @@ progress + span {
 }
 
 .playedIndicator {
-    background: rgb(34, 197, 94);
+    background: rgb(180, 180, 180);
     border: var(--defaultLighterBorder);
 }
 
@@ -2223,15 +2223,15 @@ progress + span {
 
 .videoIndicator:has(.photo_album),
 .videoIndicator:has(.folder) {
-    background: peru;
+    background: rgb(160, 160, 160);
 }
 
 .videoIndicator:has(.photo) {
-    background: steelblue;
+    background: rgb(140, 140, 140);
 }
 
 .videoIndicator:has(.videocam) {
-    background: indianred;
+    background: rgb(120, 120, 120);
 }
 
 .defaultCardBackground,
@@ -2462,7 +2462,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 .listItemIcon.schedule:not(.listItemIcon-transparent),
 .listItemIcon.person:not(.listItemIcon-transparent),
 .listItemIcon.live_tv:not(.listItemIcon-transparent) {
-    background-color: rgb(41, 49, 83) !important;
+    background-color: rgb(45, 45, 45) !important;
     border: var(--defaultBorder);
 }
 
@@ -2953,7 +2953,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 
 .metadataSidebarIcon {
-    color: #6c7bab;
+    color: #8c8c8c;
 }
 
 .jstree-default .jstree-wholerow-clicked {
@@ -3438,7 +3438,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child {
 
 #loginPage .padded-left.padded-right.padded-bottom-page {
     width: 28em;
-    background: rgba(30, 40, 54, 0.7);
+    background: rgba(24, 24, 24, 0.7);
     padding: 2em 2em 1em 2em !important;
     border-radius: var(--largerRadius);
     backdrop-filter: var(--blurDefault);

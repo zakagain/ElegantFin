@@ -2,20 +2,20 @@
 
 :root {
     /* my media library default covers customizations */
-    --colorOverlayMoviesCover: rgb(193, 103, 104);
-    --colorOverlayTvshowsCover: rgb(140, 149, 43);
-    --colorOverlayLivetvCover: rgb(17, 98, 159);
-    --colorOverlayPlaylistsCover: rgb(118, 61, 216);
-    --colorOverlayBoxsetsCover: rgb(219, 180, 53);
-    --colorOverlayMusicCover: rgb(11, 93, 72);
-    --colorOverlayHomevideosCover: rgb(39, 90, 185);
-    --colorOverlayBooksCover: rgb(166, 68, 70);
-    --colorOverlayFoldersCover: rgb(173, 60, 113);
-    --colorOverlayMixedCover: rgb(194, 58, 58);
+    --colorOverlayMoviesCover: rgb(140, 140, 140);
+    --colorOverlayTvshowsCover: rgb(130, 130, 130);
+    --colorOverlayLivetvCover: rgb(100, 100, 100);
+    --colorOverlayPlaylistsCover: rgb(120, 120, 120);
+    --colorOverlayBoxsetsCover: rgb(150, 150, 150);
+    --colorOverlayMusicCover: rgb(90, 90, 90);
+    --colorOverlayHomevideosCover: rgb(110, 110, 110);
+    --colorOverlayBooksCover: rgb(115, 115, 115);
+    --colorOverlayFoldersCover: rgb(125, 125, 125);
+    --colorOverlayMixedCover: rgb(105, 105, 105);
     --colorOverlayRecordedmoviesCover: rgb(52, 52, 52);
-    --colorOverlayRecordedtvCover: rgb(120, 100, 28);
-    --colorOverlayAnimeCover: rgb(189, 203, 99);
-    --colorOverlaySportsCover: rgb(233, 126, 60);
+    --colorOverlayRecordedtvCover: rgb(95, 95, 95);
+    --colorOverlayAnimeCover: rgb(145, 145, 145);
+    --colorOverlaySportsCover: rgb(135, 135, 135);
     --urlMoviesCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/movies.webp);
     --urlTvshowsCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/tvshows.webp);
     --urlLivetvCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/livetv.webp);
