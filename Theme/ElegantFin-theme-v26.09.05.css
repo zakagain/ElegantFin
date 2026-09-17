@@ -1,4 +1,4 @@
-/*! ElegantFin Theme Nightly for Jellyfin by lscambo13 */
+﻿/*! ElegantFin Theme v26.09.05 for Jellyfin by lscambo13 */
 
 /* Add-ons: Uncomment to enable */
 /* @import url(./assets/add-ons/media-bar-plugin-support-nightly.css); */
@@ -28,7 +28,7 @@
 }
 
 :root {
-    --elegantFinFooterText: "ElegantFin Nightly";
+    --elegantFinFooterText: "ElegantFin v26.09.05";
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -68,46 +68,46 @@
     --blurLargest: blur(20px);
 
     /* Base theme colors */
-    --darkerGradientPoint: #121212;
-    --darkerGradientPointAlpha: rgba(18, 18, 18, 0.85);
-    --lighterGradientPoint: #1e1e1e;
-    --lighterGradientPointAlpha: rgba(30, 30, 30, 0.85);
-    --gradientPointAlpha: rgba(30, 30, 30, 0.3);
-    --headerColor: rgba(24, 24, 24, 0.8);
-    --drawerColor: rgba(24, 24, 24, 0.9);
+    --darkerGradientPoint: #111827;
+    --darkerGradientPointAlpha: rgba(17, 24, 39, 0.85);
+    --lighterGradientPoint: #1d2635;
+    --lighterGradientPointAlpha: rgba(29, 38, 53, 0.85);
+    --gradientPointAlpha: rgba(29, 38, 53, 0.3);
+    --headerColor: rgba(30, 40, 54, 0.8);
+    --drawerColor: rgba(30, 40, 54, 0.9);
 
-    --borderColor: hsl(0, 0%, 32%);
-    --darkerBorderColor: hsl(0, 0%, 22%);
+    --borderColor: hsl(214, 13%, 32%);
+    --darkerBorderColor: hsl(214, 13%, 22%);
     --lighterBorderColor: hsla(0, 0%, 100%, 0.2);
 
-    --selectorBackgroundColor: hsl(0, 0%, 27%);
-    --selectorBackgroundColorAlpha: hsla(0, 0%, 27%, 0.5);
+    --selectorBackgroundColor: hsl(217, 19%, 27%);
+    --selectorBackgroundColorAlpha: hsla(217, 19%, 27%, 0.5);
 
     /* dark theme colors */
-    --textColor: rgb(210, 210, 210);
-    --dimTextColor: rgb(160, 160, 160);
+    --textColor: rgb(209, 213, 219);
+    --dimTextColor: rgb(156, 163, 175);
     --fullContrastColor: #fff;
     --zeroContrastColor: #000;
     --svgIconFilter: none;
     --clearLogoFilter: none;
 
-    --accentColor: rgb(180 180 180);
-    --accentHoverColor: hsl(0, 0%, 75%);
+    --accentColor: hsl(243, 75%, 62%);
+    --accentHoverColor: rgb(117, 111, 226);
     --semiTransparentAccentColor: rgba(255, 255, 255, 0.125);
 
     --btnPlayColor: var(--textColor);
     --btnPlayBorderColor: var(--borderColor);
 
-    --btnMiniPlayColor: rgb(160 160 160);
-    --btnMiniPlayBorderColor: rgb(180, 180, 180);
+    --btnMiniPlayColor: rgb(41, 154, 93);
+    --btnMiniPlayBorderColor: rgb(50, 167, 105);
 
     /* Base component colors */
-    --btnDeleteColor: rgb(130, 130, 130);
-    --btnDeleteBorderColor: rgb(170, 170, 170);
-    --btnSubmitColor: rgb(140, 140, 140);
-    --btnSubmitBorderColor: rgb(180 180 180);
-    --checkboxCheckedBgColor: rgb(160, 160, 160);
-    --highlightOutlineColor: rgb(180, 180, 180);
+    --btnDeleteColor: rgb(169, 29, 29);
+    --btnDeleteBorderColor: rgb(217, 84, 84);
+    --btnSubmitColor: rgb(61, 54, 178);
+    --btnSubmitBorderColor: rgb(117, 111, 226);
+    --checkboxCheckedBgColor: rgb(79, 70, 229);
+    --highlightOutlineColor: rgb(37, 99, 235);
 
     --hoverBackgroundColor: var(--textColor);
     --hoverTabBackgroundColor: rgba(255, 255, 255, 0.9);
@@ -122,7 +122,7 @@
     --dividerColor: rgba(255, 255, 255, 0.05);
     --textareaBackgroundColor: var(--selectorBackgroundColor);
 
-    --tableBodyColor: rgb(31 31 31 / 1);
+    --tableBodyColor: rgb(31, 41, 55);
 
     --osdSeekBarPlayedColor: var(--textColor);
     --osdSeekBarBufferedColorAlpha: rgba(128, 128, 128, 0.5);
@@ -132,8 +132,8 @@
     --backgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint) 35%, var(--lighterGradientPoint));
     --cardBackgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint), 25%, var(--lighterGradientPoint));
     --backgroundAlphaOverlay: linear-gradient(180deg, var(--darkerGradientPointAlpha) 80%, transparent);
-    --headerColorGradient: linear-gradient(180deg, rgba(24, 24, 24, 0.95) 30%, 55%, transparent 90%);
-    --headerColorGradientAlt: linear-gradient(180deg, rgba(24, 24, 24, 1), 70%, transparent);
+    --headerColorGradient: linear-gradient(180deg, rgba(30, 40, 54, 0.95) 30%, 55%, transparent 90%);
+    --headerColorGradientAlt: linear-gradient(180deg, rgba(30, 40, 54, 1), 70%, transparent);
     --headerBlurMask: linear-gradient(180deg, #fff 50%, 85%, transparent);
 
     --cardFooterGradient: linear-gradient(0deg, hsla(0, 0%, 5%, 0.95), 40%, transparent);
@@ -489,7 +489,7 @@ select {
 .countIndicator,
 .fullSyncIndicator,
 .mediaSourceIndicator {
-    background: rgb(80, 80, 80);
+    background: rgb(31, 80, 189);
     border: var(--defaultLighterBorder);
     color: #fff;
 }
@@ -1320,8 +1320,8 @@ select {
 }
 
 .starIcon {
-    --tmdb: linear-gradient(to right, #b0b0b0, #808080);
-    --imdb: linear-gradient(to right, #c8c8c8, #a0a0a0);
+    --tmdb: linear-gradient(to right, #90cea1, #01b4e4);
+    --imdb: linear-gradient(to right, #f2db83, #dba506);
     --colors: var(--tmdb);
     background: var(--colors);
     -webkit-background-clip: text;
@@ -1752,11 +1752,11 @@ html,
 
 .backgroundContainer.withBackdrop {
     opacity: 0.9;
-    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(18, 18, 18, 0.25));
+    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(17, 24, 39, 0.25));
 }
 
 .layout-tv .backgroundContainer.withBackdrop {
-    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(18, 18, 18, 0.95));
+    background: linear-gradient(0deg, var(--darkerGradientPoint), 45%, rgba(17, 24, 39, 0.95));
 }
 
 .layout-mobile .withSectionTabs .backgroundContainer.withBackdrop {
@@ -2064,7 +2064,7 @@ progress + span {
 }
 
 .playstatebutton-icon-played {
-    color: rgb(180, 180, 180);
+    color: rgb(34, 197, 94);
 }
 
 .videoOsdBottom.videoOsdBottom-maincontrols .btnPause {
@@ -2100,56 +2100,56 @@ progress + span {
 
 .layout-desktop .itemExternalLinks > a[href*="themoviedb.org"]:hover,
 .itemExternalLinks > a[href*="themoviedb.org"]:active {
-    background-color: rgb(140, 140, 140) !important;
+    background-color: #1ab7d8 !important;
     color: #000 !important;
 }
 
 .layout-desktop .itemExternalLinks > a[href*="imdb.com"]:hover,
 .itemExternalLinks > a[href*="imdb.com"]:active {
-    background-color: rgb(160, 160, 160) !important;
+    background-color: #e2b616 !important;
     color: #000 !important;
 }
 
 .layout-desktop .itemExternalLinks > a[href*="thetvdb.com"]:hover,
 .itemExternalLinks > a[href*="thetvdb.com"]:active {
-    background-color: rgb(150, 150, 150) !important;
+    background-color: #6cd591 !important;
     color: #000 !important;
 }
 
 .layout-desktop .itemExternalLinks > a[href*="trakt.tv"]:hover,
 .itemExternalLinks > a[href*="trakt.tv"]:active {
-    background-color: rgb(130, 130, 130) !important;
+    background-color: #ab3aad !important;
     color: #fff !important;
 }
 
 .layout-desktop .itemExternalLinks > a[href*="theaudiodb.com"]:hover,
 .itemExternalLinks > a[href*="theaudiodb.com"]:active {
-    background-color: rgb(140, 140, 140) !important;
-    color: rgb(15, 15, 15) !important;
+    background-color: #6399cc !important;
+    color: rgb(15, 22, 28) !important;
 }
 
 .layout-desktop .itemExternalLinks > a[href*="musicbrainz.org"]:hover,
 .itemExternalLinks > a[href*="musicbrainz.org"]:active {
-    background-color: rgb(120, 120, 120) !important;
+    background-color: #ba478f !important;
     color: #fff !important;
 }
 
 /* Support for Jellyfin Enhanced (https://github.com/n00bcodr/Jellyfin-Enhanced) */
 .layout-desktop .itemExternalLinks > a[href*="letterboxd.com"]:hover,
 .itemExternalLinks > a[href*="letterboxd.com"]:active {
-    background-color: rgb(20, 20, 20) !important;
+    background-color: #14181c !important;
     color: #fff !important;
 }
 
 .layout-desktop .itemExternalLinks > a[title*="Radarr"]:hover,
 .itemExternalLinks > a[title*="Radarr"]:active {
-    background-color: rgb(170, 170, 170) !important;
+    background-color: #ffc230 !important;
     color: #000 !important;
 }
 
 .layout-desktop .itemExternalLinks > a[title*="Sonarr"]:hover,
 .itemExternalLinks > a[title*="Sonarr"]:active {
-    background-color: rgb(140, 140, 140) !important;
+    background-color: #07bae9 !important;
     color: #000 !important;
 }
 
@@ -2491,7 +2491,7 @@ progress + span {
 }
 
 .playedIndicator {
-    background: rgb(180, 180, 180);
+    background: rgb(34, 197, 94);
     border: var(--defaultLighterBorder);
 }
 
@@ -2505,15 +2505,15 @@ progress + span {
 
 .videoIndicator:has(.photo_album),
 .videoIndicator:has(.folder) {
-    background: rgb(160, 160, 160);
+    background: peru;
 }
 
 .videoIndicator:has(.photo) {
-    background: rgb(140, 140, 140);
+    background: steelblue;
 }
 
 .videoIndicator:has(.videocam) {
-    background: rgb(120, 120, 120);
+    background: indianred;
 }
 
 .defaultCardBackground,
@@ -3254,7 +3254,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 
 .metadataSidebarIcon {
-    color: #8c8c8c;
+    color: #6c7bab;
 }
 
 .jstree-default .jstree-wholerow-clicked {
@@ -3777,7 +3777,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child {
 
 #loginPage .padded-left.padded-right.padded-bottom-page {
     width: 28em;
-    background: rgba(24, 24, 24, 0.7);
+    background: rgba(30, 40, 54, 0.7);
     padding: 2em 2em 1em 2em !important;
     border-radius: var(--largerRadius);
     backdrop-filter: var(--blurDefault);

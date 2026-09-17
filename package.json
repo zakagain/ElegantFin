@@ -6,10 +6,10 @@
         "postcss-cli": "^11.0.1"
     },
     "scripts": {
-        "build:theme": "postcss ./Theme/ElegantFin-theme-nightly.css -o ./Theme/ElegantFin-jellyfin-theme-build-latest-minified.css",
-        "build:covers-addon": "postcss ./Theme/assets/add-ons/custom-media-covers-nightly.css -o ./Theme/assets/add-ons/custom-media-covers-latest-min.css",
-        "build:mediabar-addon": "postcss ./Theme/assets/add-ons/media-bar-plugin-support-nightly.css -o ./Theme/assets/add-ons/media-bar-plugin-support-latest-min.css",
-        "build:release": "npm run build:theme && npm run build:covers-addon && npm run build:mediabar-addon",
+        "minify:theme": "postcss ./Theme/ElegantFin-theme-nightly.css -o ./Theme/ElegantFin-theme-nightly-min.css",
+        "minify:covers-addon": "postcss ./Theme/assets/add-ons/custom-media-covers-nightly.css -o ./Theme/assets/add-ons/custom-media-covers-nightly-min.css",
+        "minify:mediabar-addon": "postcss ./Theme/assets/add-ons/media-bar-plugin-support-nightly.css -o ./Theme/assets/add-ons/media-bar-plugin-support-nightly-min.css",
+        "minify:all": "npm run minify:theme && npm run minify:covers-addon && npm run minify:mediabar-addon",
         "watch:theme": "postcss ./Theme/ElegantFin-theme-nightly.css -o ./Theme/ElegantFin-theme-nightly-min.css --watch --verbose",
         "watch:covers-addon": "postcss ./Theme/assets/add-ons/custom-media-covers-nightly.css -o ./Theme/assets/add-ons/custom-media-covers-nightly-min.css --watch --verbose",
         "watch:mediabar-addon": "postcss ./Theme/assets/add-ons/media-bar-plugin-support-nightly.css -o ./Theme/assets/add-ons/media-bar-plugin-support-nightly-min.css --watch --verbose",
